@@ -9,12 +9,12 @@ import time
 import os
 
 # Graphical window
-window = tk.Tk()
-window.title("Face Recognition Based Attendance System")
-window.geometry('1280x720')
+window = tk.Tk()  # to initialize the window
+window.title("Face Recognition Based Attendance System") # to give the window a title
+window.geometry('1280x720')   # shape of the window
 dialog_title = ''
-window.configure(background='grey')
-window.rowconfigure(0, weight=1)
+window.configure(background='grey') # configuring the window
+window.rowconfigure(0, weight=1) # dividing the window into rows and columns according to their weight
 window.columnconfigure(0, weight=1)
 message = tk.Label(window, text='ATTENDANCE PORTAL', bg='silver', fg='black', width=20,
                    height=2, font=('helvetica', 20, 'bold'))
