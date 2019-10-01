@@ -1,3 +1,5 @@
+# Importing the libraries
+
 import tkinter as tk
 import numpy as np
 import cv2
